@@ -1,0 +1,120 @@
+@import url("null.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #424551;
+    line-height: 1.6;
+}
+
+.wrapper-one {
+    margin: 0 auto;
+    text-align: center;
+}
+.background {
+    background: url("../img/city.jpg") center no-repeat;
+    margin: 70px auto;
+    padding: 50px;
+    max-width: 880px;
+}
+.glass {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    margin: 0 auto;
+}
+.text {
+    font-size: 30px;
+    color: #e4e4e4;
+}
+
+.line {
+    max-width: 100%;
+    background: rgb(255, 3, 3);
+    height: 2px;
+    margin: 0 0 20px 0;
+}
+
+.wrapper {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1e212c;
+    margin-bottom: 92px;
+}
+.img {
+    width: 810px;
+    height: 360px;
+    margin-bottom: 60px;
+}
+.lead {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1e212c;
+    margin-bottom: 24px;
+}
+.main {
+    margin-bottom: 48px;
+}
+
+p {
+    margin-bottom: 24px;
+}
+.quote {
+    background: url("../img/icon/icon1.png") 0 0 no-repeat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1e212c;
+    margin-bottom: 48px;
+    padding-left: 60px;
+}
+
+.list {
+    margin-bottom: 48px;
+}
+
+.list-two {
+    max-width: 390px;
+}
+
+.list-item {
+    background: url("../img/icon/icon2.png") 0 5px no-repeat;
+    padding-left: 33px;
+    margin-bottom: 4px;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1e212c;
+}
+
+.btn {
+    align-items: center;
+    padding: 0px 32px;
+    position: absolute;
+    width: 161px;
+    height: 44px;
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 3.1;
+    margin: 0 0 20px 0;
+}
